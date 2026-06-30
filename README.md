@@ -239,10 +239,4 @@ Respect YouTube Terms of Service and copyright laws in your jurisdiction.
 
 ---
 
-## 📄 License
-
-MIT License — see LICENSE for details.
-
----
-
 Built with Python, FFmpeg, Mistral AI, and python-telegram-bot.
