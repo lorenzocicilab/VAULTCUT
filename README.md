@@ -246,5 +246,3 @@ MIT License — see LICENSE for details.
 ---
 
 Built with Python, FFmpeg, Mistral AI, and python-telegram-bot.
-```
-
