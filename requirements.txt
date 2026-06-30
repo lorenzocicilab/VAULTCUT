@@ -1,0 +1,36 @@
+# ============================================================
+# VAULTCUT — Python Dependencies  (Phase 1 + Phase 2)
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# --- Trend Detection ---
+pytrends==4.9.2              # Google Trends (no API key needed)
+praw==7.7.1                  # Reddit API (optional — works without it too)
+requests==2.31.0             # HTTP calls: Reddit public JSON, Ollama API
+
+# --- Content Download (Phase 4) ---
+yt-dlp		             # Download YouTube videos and Twitch VODs
+streamlink	            # Record Twitch live streams
+
+# --- AI: Transcription (Phase 5) ---
+openai-whisper	     # Local speech-to-text transcription
+
+# --- Video Processing (Phase 6) ---
+Pillow	               # Image/thumbnail manipulation
+
+# --- Telegram Bot (Phase 8) ---
+python-telegram-bot==20.7    # Send clips and approval buttons
+
+# --- YouTube Uploading (Phase 9) ---
+google-api-python-client==2.116.0  # YouTube Data API v3
+google-auth==2.27.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+
+# --- Scheduling ---
+APScheduler==3.10.4          # Run tasks on a schedule (every 12 hours etc.)
+
+# --- Utilities ---
+colorlog==6.8.2              # Colorful terminal logging
+tqdm==4.66.1                 # Progress bars for downloads
+humanize==4.9.0              # Human-readable file sizes in logs
